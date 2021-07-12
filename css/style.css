@@ -26,9 +26,15 @@
 }
 /*header part end*/
 /*nav part start*/
-#nav .container{
-    display: flex;
+
+#nav_close,
+#nav_trigger{
+    display: none;
 }
+#nav {
+    padding: 10px 0px;
+}
+
 #nav .logo{
     height: 40px;
 }
@@ -581,7 +587,7 @@
 
 /*footer-bottom part start*/
 section#footer_bottom {
-    background: var(--black);
+    background: #555555;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
